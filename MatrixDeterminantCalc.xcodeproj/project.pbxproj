@@ -12,6 +12,8 @@
 		0AE9FDEC20BB052500E81C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9FDEA20BB052500E81C8D /* Main.storyboard */; };
 		0AE9FDEE20BB052700E81C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9FDED20BB052700E81C8D /* Assets.xcassets */; };
 		0AE9FDF120BB052700E81C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE9FDEF20BB052700E81C8D /* LaunchScreen.storyboard */; };
+		0AE9FDF920BB055C00E81C8D /* MatrixTestableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9FDF820BB055C00E81C8D /* MatrixTestableProtocol.swift */; };
+		0AE9FDFB20BB0EE600E81C8D /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9FDFA20BB0EE600E81C8D /* Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0AE9FDED20BB052700E81C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE9FDF020BB052700E81C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE9FDF220BB052700E81C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AE9FDF820BB055C00E81C8D /* MatrixTestableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTestableProtocol.swift; sourceTree = "<group>"; };
+		0AE9FDFA20BB0EE600E81C8D /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0AE9FDED20BB052700E81C8D /* Assets.xcassets */,
 				0AE9FDEF20BB052700E81C8D /* LaunchScreen.storyboard */,
 				0AE9FDF220BB052700E81C8D /* Info.plist */,
+				0AE9FDF820BB055C00E81C8D /* MatrixTestableProtocol.swift */,
+				0AE9FDFA20BB0EE600E81C8D /* Matrix.swift */,
 			);
 			path = MatrixDeterminantCalc;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE9FDFB20BB0EE600E81C8D /* Matrix.swift in Sources */,
 				0AE9FDE920BB052500E81C8D /* ViewController.swift in Sources */,
 				0AE9FDE720BB052500E81C8D /* AppDelegate.swift in Sources */,
+				0AE9FDF920BB055C00E81C8D /* MatrixTestableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
